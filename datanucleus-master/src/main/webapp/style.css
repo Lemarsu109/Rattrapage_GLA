@@ -1,0 +1,100 @@
+h1
+{
+    text-align: center;
+    color:#CE5233;
+    font-size: xx-large;
+    font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', Arial, sans-serif;
+    border: 2px #CE5233 solid;
+    border-radius: 10px;
+}
+
+body
+{
+    background-image: url(fond.jpeg);
+    background-attachment: scroll;
+    background-position: center;
+    font-family:'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', Arial, sans-serif;
+}
+
+td
+{
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10% 1em;
+    font-size: large;
+}
+
+td
+{
+    border: 1px #00C6BB solid;
+    color:#00C6BB;
+}
+
+a
+{
+    text-decoration: double;
+    color:#00C6BB;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.message
+{
+    border: 1px #274561 solid;
+    border-radius: 10px;
+    color:#274561;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    padding: 1em;
+    margin: 3em;
+}
+
+.message::before
+{
+    content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 100%;
+	left: 1em;
+	border-top: 25px solid;
+    border-right: 25px solid transparent;
+    border-bottom-color: white;
+}
+
+.reponse
+{
+    background-color: #00C6BB;
+    border: 1px #00C6BB solid;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    padding: 1em;
+    margin: 3em;
+}
+
+.reponse::before
+{
+    content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 100%;
+	right: 1em;
+	border-top: 25px solid #00C6BB;
+    border-left: 25px solid transparent;
+    border-bottom-color: #00C6BB;
+}
+
+.connexion 
+{
+    color:#274561;
+    text-align: center;
+}

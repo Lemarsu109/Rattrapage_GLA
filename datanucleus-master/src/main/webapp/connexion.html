@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<head>
+        <meta charset="utf-8" />
+        <title>Forum - Connexion</title>
+    </head>
+
+    <header>
+		<h1>Connexion</h1>
+	</header>
+
+	<body>
+        <form method="post" action="traitement.php">
+            <p class="connexion">
+                <img src="profil.png" alt="Profil" /><br />
+
+                <label for="pseudo">Votre pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" />
+                
+                <br />
+                <label for="pass">Votre mot de passe :</label>
+                <input type="password" name="pass" id="pass" />
+                
+            </p>
+         </form>
+		
+		<div id="result"></div>
+		
+	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script type="text/javascript" src="home.js"></script>
+	</body>
+</html>
